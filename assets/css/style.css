@@ -24,10 +24,31 @@
   }
   
   .debug header {
-    height: 250px;
+    height: 16px;
+  }
+
+  .debug .banner {
+    background-color: blue;
+  }
+
+  .debug .header_background {
+    background-color: aqua;
+    height: 32px;
+  }
+
+  .debug .banner_content {
+    background-color: purple;
+    border: 1px solid;
+    height: 200px;
+    width: 450px;
   }
 
 /*#region Utilities*/
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
 
 .clearfix::after {
     content: "";
