@@ -40,11 +40,22 @@
     background-color: lightgrey;
   }
 
+  .debug .bottom_background {
+    background-color: lightgrey;
+  }
+
   .debug .banner_content {
     background-color: rgb(229, 149, 229);
     border: 1px solid;
     height: 180px;
     width: 850px;
+  }
+
+  .debug .section_content {
+    background-color: green;
+    border: 1px solid;
+    height: 550px;
+    width: 1200px;
   }
 
 /*#region Utilities*/
