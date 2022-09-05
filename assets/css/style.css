@@ -36,6 +36,10 @@
     height: 32px;
   }
 
+  .debug .middle_background {
+    background-color: lightgrey;
+  }
+
   .debug .banner_content {
     background-color: rgb(229, 149, 229);
     border: 1px solid;
@@ -61,9 +65,13 @@
     clear: both;
 }
 
-.row_height {
+.row_header {
     height: 13px;
     margin-top: 8px;
+}
+
+.row_section {
+    height: 250px;
 }
 
 .col-1 {
