@@ -37,17 +37,22 @@
   }
 
   .debug .banner_content {
-    background-color: purple;
+    background-color: rgb(229, 149, 229);
     border: 1px solid;
-    height: 200px;
-    width: 450px;
+    height: 180px;
+    width: 850px;
   }
 
 /*#region Utilities*/
 
-.flex {
+.flex_center {
     display: flex;
     justify-content: center;
+}
+
+.container_padding {
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .clearfix::after {
