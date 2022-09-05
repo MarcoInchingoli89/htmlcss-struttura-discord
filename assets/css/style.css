@@ -44,6 +44,10 @@
     background-color: lightgrey;
   }
 
+  .debug .footer_background {
+    background-color: black;
+  }
+
   .debug .banner_content {
     background-color: rgb(229, 149, 229);
     border: 1px solid;
@@ -58,6 +62,21 @@
     width: 1200px;
   }
 
+  .debug .row_bottom {
+    background-color: aquamarine;
+    border: 1px solid;
+  }
+
+  .debug .logo {
+    background-color: pink;
+    border: 1px solid;
+  }
+
+  .debug .button {
+    background-color: pink;
+    border: 1px solid;
+  }
+
 /*#region Utilities*/
 
 .flex_center {
@@ -68,6 +87,12 @@
 .container_padding {
     padding-top: 16px;
     padding-bottom: 16px;
+}
+
+.footer_padding {
+    padding-top: 6px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid white;
 }
 
 .clearfix::after {
@@ -83,6 +108,27 @@
 
 .row_section {
     height: 250px;
+}
+
+.row_footer {
+    height: 350px;
+}
+
+.row_bottom {
+    display: flex;
+    height: 100px;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rectangle {
+    height: 30px;
+    width: 100px;
+}
+
+.mt-20 {
+    margin-top: 20px;
 }
 
 .col-1 {
